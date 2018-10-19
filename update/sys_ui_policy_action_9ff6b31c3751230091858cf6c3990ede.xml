@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>u_short_description</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-18 10:33:17</sys_created_on>
+        <sys_id>9ff6b31c3751230091858cf6c3990ede</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_short_description</sys_name>
+        <sys_package display_value="Belladorty" source="x_285747_belladort">7c86f2883711230091858cf6c3990efc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Belladorty">7c86f2883711230091858cf6c3990efc</sys_scope>
+        <sys_update_name>sys_ui_policy_action_9ff6b31c3751230091858cf6c3990ede</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-18 10:33:17</sys_updated_on>
+        <table>x_285747_belladort_belladorty</table>
+        <ui_policy display_value="Belladorty show or hide Shrt description  field">e3b43f983751230091858cf6c3990ee5</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

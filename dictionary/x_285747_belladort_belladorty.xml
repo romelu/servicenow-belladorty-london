@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Belladorty" max_length="40" name="x_285747_belladort_belladorty" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="birth" label="Cake's type" max_length="40" name="u_cakes_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Birthday Cake" sequence="0" value="birth"/>
+                <element inactive="true" inactive_on_update="true" label="Other Occasion" sequence="0" value="occa"/>
+                <element inactive_on_update="false" label="Wedding Cake" sequence="1" value="wedd"/>
+                <element inactive_on_update="false" label="Other" sequence="2" value="other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="wFour" label="Desirable weight(kg)" max_length="40" name="u_desirable_weight" type="string">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="0" value="wOne"/>
+                <element inactive_on_update="false" label="2" sequence="1" value="wTwo"/>
+                <element inactive_on_update="false" label="3" sequence="2" value="wThree"/>
+                <element inactive_on_update="false" label="4" sequence="3" value="wFour"/>
+                <element inactive_on_update="false" label="5" sequence="4" value="wFive"/>
+                <element inactive_on_update="false" label="6" sequence="5" value="wSix"/>
+                <element inactive_on_update="false" label="7" sequence="6" value="wSeven"/>
+                <element inactive_on_update="false" label="8" sequence="7" value="wEight"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="No extras." label="Extra wishes" max_length="1000" name="u_extra_wishes" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="chocolate" label="Flavor" max_length="40" name="u_flavor" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Belgian Chocolate" sequence="0" value="chocolate"/>
+                <element inactive_on_update="false" label="Vanilla" sequence="1" value="vanilla"/>
+                <element inactive_on_update="false" label="Raffaello" sequence="2" value="raffaello"/>
+                <element inactive_on_update="false" label="Coffee" sequence="3" value="coffee"/>
+                <element inactive_on_update="false" label="Caramel" sequence="4" value="caramel"/>
+                <element inactive_on_update="false" label="Coconut" sequence="5" value="coconut"/>
+                <element inactive_on_update="false" label="Mascarpone Cream" sequence="6" value="mascarpone"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="floorOne" label="Floor(s)" max_length="40" name="u_floor" type="string">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="0" value="floorOne"/>
+                <element inactive="true" inactive_on_update="true" label="1 Floor" sequence="0" value="one"/>
+                <element inactive_on_update="false" label="2" sequence="1" value="floorTwo"/>
+                <element inactive="true" inactive_on_update="true" label="2 Floors" sequence="1" value="two"/>
+                <element inactive_on_update="false" label="3" sequence="2" value="floorThree"/>
+                <element inactive="true" inactive_on_update="true" label="3 Floors" sequence="2" value="three"/>
+            </choice>
+        </element>
+        <element label="Pickup day" mandatory="true" max_length="40" name="u_pickup_day" type="glide_date_time"/>
+        <element label="Requested for" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Requested for email" mandatory="true" max_length="40" name="u_requsted_for_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Short description" mandatory="true" max_length="40" name="u_short_description" type="string"/>
+        <index name="index">
+            <element name="u_requested_for"/>
+        </index>
+    </element>
+</database>

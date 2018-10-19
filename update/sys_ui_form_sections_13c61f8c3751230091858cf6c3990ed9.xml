@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="13c61f8c3751230091858cf6c3990ed9" sys_domain="global" table="x_285747_belladort_belladorty" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-17 13:33:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d7c61f8c3751230091858cf6c3990edb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_285747_belladort_belladorty" name="x_285747_belladort_belladorty" sys_domain="global" view="Default view">13c61f8c3751230091858cf6c3990ed9</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_285747_belladort_belladorty" sys_domain="global" view="Default view">2299728c3711230091858cf6c3990e03</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-17 13:33:07</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-17 13:33:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d3c61f8c3751230091858cf6c3990edc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_285747_belladort_belladorty" name="x_285747_belladort_belladorty" sys_domain="global" view="Default view">13c61f8c3751230091858cf6c3990ed9</sys_ui_form>
+            <sys_ui_section caption="Design your cake" display_value="Design your cake" name="x_285747_belladort_belladorty" sys_domain="global" view="Default view">53c61f8c3751230091858cf6c3990ed8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-17 13:33:07</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_285747_belladort_belladorty</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-17 13:33:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>13c61f8c3751230091858cf6c3990ed9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_285747_belladort_belladorty</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Belladorty" source="x_285747_belladort">7c86f2883711230091858cf6c3990efc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Belladorty">7c86f2883711230091858cf6c3990efc</sys_scope>
+            <sys_update_name>sys_ui_form_sections_13c61f8c3751230091858cf6c3990ed9</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-17 13:33:07</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Displays an alert to a user on load and recommends a cake based on current month</description>
+        <field>u_cakes_type</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Belladorty recommendation message</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	//Checks if new record, if yes code executes
+	if(g_form.isNewRecord()) {
+		//Displays an alert to a user on load and recommends a cake based on current month
+		var date = new Date();
+		var month = (date.getMonth() + 1); // date offset, array zero based
+		if(month == 3 || month == 4 || month == 5) {
+			alert('Its SPRING! GOOD pick for spring is CARAMEL cake!');
+		}
+		if(month == 6 || month == 7 || month == 8) {
+			alert('Its SUMMER! GOOD pick for summer is VANILLA cake!');
+		}
+		if(month == 9 || month == 10 || month == 11) {
+			alert('Its AUTUM! GOOD pick for autum is COFFEE cake!');
+		}
+		if(month == 1 || month == 2 || month == 12) {
+			alert('Its WINTER! GOOD pick for winter is COCONUT cake!');
+		}
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-18 11:20:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5bf04c603791230091858cf6c3990e86</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>Belladorty recommendation message</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Belladorty" source="x_285747_belladort">7c86f2883711230091858cf6c3990efc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Belladorty">7c86f2883711230091858cf6c3990efc</sys_scope>
+        <sys_update_name>sys_script_client_5bf04c603791230091858cf6c3990e86</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-18 16:10:01</sys_updated_on>
+        <table>x_285747_belladort_belladorty</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
