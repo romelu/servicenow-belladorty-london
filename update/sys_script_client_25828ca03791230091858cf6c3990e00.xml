@@ -11,11 +11,13 @@
         <name>Belladorty onSubmit message</name>
         <order/>
         <script><![CDATA[function onSubmit() {
+	var message = 'Thank you for choosing Belladorty';
+	var link = 'http://www.belladorty.cz';
 	//Displays an alert on submit
-	alert('Thank you for choosing Belladorty');
+	alert(message);
 	//If new record, new tab will pop up
 	if(g_form.isNewRecord()) {
-		g_navigation.openPopup('http://www.belladorty.cz');
+		g_navigation.openPopup(link);
 	}
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
@@ -24,7 +26,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>25828ca03791230091858cf6c3990e00</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Belladorty onSubmit message</sys_name>
         <sys_overrides/>
         <sys_package display_value="Belladorty" source="x_285747_belladort">7c86f2883711230091858cf6c3990efc</sys_package>
@@ -32,7 +34,7 @@
         <sys_scope display_value="Belladorty">7c86f2883711230091858cf6c3990efc</sys_scope>
         <sys_update_name>sys_script_client_25828ca03791230091858cf6c3990e00</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-10-19 11:12:16</sys_updated_on>
+        <sys_updated_on>2018-10-19 15:31:07</sys_updated_on>
         <table>x_285747_belladort_belladorty</table>
         <type>onSubmit</type>
         <ui_type>10</ui_type>
